@@ -1,0 +1,13 @@
+.componentMenu {
+  text-align: center;
+  color: #77859a;
+  padding: 32px;
+  font-weight: 600;
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 20px;
+  }
+}

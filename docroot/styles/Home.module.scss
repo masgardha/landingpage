@@ -1,0 +1,52 @@
+.homepage {
+  height: 100vh;
+  background-color: #edf2f7;
+  .card {
+    max-width: 450px;
+    margin: 80px auto 30px auto;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: -6px 15px 12px 2px #cccccc;
+    animation: zoom-in-zoom-out 1s ease infinite;
+
+    &Wrapper {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      padding: 20px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+
+      &Left {
+        img {
+          border-radius: 50%;
+        }
+      }
+      &Right {
+        margin-left: 20px;
+        text-align: left;
+        h4 {
+          margin-top: 0;
+          font-weight: 600;
+        }
+        p {
+          line-height: 1.5;
+          font-size: 12px;
+        }
+      }
+    }
+
+    &Body {
+      display: flex;
+      justify-content: flex-end;
+      &Button {
+        padding: 12px 32px;
+        background-color: rgb(2, 172, 115);
+        border-bottom-right-radius: 10px;
+        color: white;
+        font-size: 14px;
+      }
+    }
+  }
+
+}
