@@ -62,7 +62,9 @@
 
 .logo {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   filter: grayscale(1);
-  gap: 20px;
+  margin: auto;
+  padding-top: 50px;
+  max-width: 650px;
 }
