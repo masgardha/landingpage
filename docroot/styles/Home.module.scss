@@ -28,10 +28,11 @@
         h4 {
           margin-top: 0;
           font-weight: 600;
+          font-size: 20px;
         }
         p {
           line-height: 1.5;
-          font-size: 12px;
+          font-size: 14px;
         }
       }
     }
@@ -49,4 +50,19 @@
     }
   }
 
+}
+
+
+.skill {
+  max-width: 450px;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  filter: grayscale(1);
+  gap: 20px;
 }
