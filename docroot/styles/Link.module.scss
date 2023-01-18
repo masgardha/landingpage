@@ -1,0 +1,33 @@
+.link {
+  max-width: 500px;
+  margin: auto;
+
+  &Photo {
+    padding-top: 30px;
+    img {
+      border-radius: 50%;
+    }
+
+    p{
+      font-size: 14px;
+    }
+  }
+
+  &Button {
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      li {
+       a{
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 30px;
+        display: block;
+       }
+      }
+    }
+  }
+}
